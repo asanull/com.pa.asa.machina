@@ -1,0 +1,98 @@
+{
+  "author": "asa",
+  "build": "115958",
+  "context": "server",
+  "date": "2022-04-12",
+  "description": "",
+  "display_name": "Machina Addon",
+  "forum": "not yet implemented",
+  "identifier": "com.pa.asa.machina",
+  "signature": "not yet implemented",
+  "version": "1.0.0",
+  "scenes": {
+      "shared_build": [
+        "coui://ui/mods/com.pa.asa.machina/shared_build.js"
+      ],
+      "icon_atlas": [
+        "coui://ui/mods/com.pa.asa.machina/icon_atlas.js"
+      ]
+  },
+  "unitList": {
+    "units": [
+      "/machina/units/air/dreadnought/dreadnought.json",
+      "/machina/units/air/thunderbolt/thunderbolt.json",
+      "/machina/units/land/artificial_commander/artificial_commander.json"
+    ],
+    "info": {
+      "/machina/units/orbital/dreadnought/dreadnought.json": {
+        "unit": "/machina/units/orbital/dreadnought/dreadnought.json",
+        "modIdentifier": "com.pa.asa.machina.demo",
+        "infoDisplayName": "Machina - Units addon",
+        "infoDescription": "Machina - Units addon",
+        "sort": 500,
+        "searchable": [
+          "dreadnought",
+          "addon",
+          "battleship"
+        ],
+        "buildBarImageFilename": "/community-mods/downloads/files/com.pa.asa.machina.demo/machina/units/orbital/dreadnought/dreadnought_icon_buildbar.png",
+        "classic": false,
+        "titans": false
+      },
+      "/machina/units/air/thunderbolt/thunderbolt.json": {
+        "unit": "/machina/units/air/thunderbolt/thunderbolt.json",
+        "modIdentifier": "com.pa.asa.machina",
+        "infoDisplayName": "Machina - Units Addon",
+        "infoDescription": "Machina - Units Addon",
+        "sort": 500,
+        "searchable": [
+          "machina",
+          "thunderbolt",
+          "addon",
+          "air"
+        ],
+        "buildBarImageFilename": "/community-mods/downloads/files/com.pa.asa.machina/machina/units/air/thunderbolt/thunderbolt_icon_buildbar.png",
+        "classic": false,
+        "titans": false
+      },
+      "/machina/units/land/artificial_commander/artificial_commander.json": {
+        "unit": "/machina/units/land/artificial_commander/artificial_commander.json",
+        "modIdentifier": "com.pa.asa.machina",
+        "infoDisplayName": "Machina - Units Addon",
+        "infoDescription": "Machina - Units Addon",
+        "sort": 500,
+        "searchable": [
+          "machina",
+          "addon",
+          "land"
+        ],
+        "buildBarImageFilename": "/community-mods/downloads/files/com.pa.asa.machina/machina/units/air/thunderbolt/thunderbolt_icon_buildbar.png",
+        "classic": false,
+        "titans": false
+      }
+    }
+},
+  "icon": "https://i.imgur.com/6z1x769.png",
+  "fileSystem": false,
+  "searchable": [
+      "classic",
+      "titans",
+      "air",
+      "asa"
+  ],
+  "sort": "machina unit addon",
+  "authors": [
+      "asa"
+  ],
+  "github": "",
+  "priority": 80,
+  "timestamp": 1627689600000,
+  "dependencies": [],
+  "companions": [],
+  "framework": false,
+  "titansOnly": false,
+  "classicOnly": false,
+  "classic": true,
+  "titans": true,
+  "conflicts": {}
+}

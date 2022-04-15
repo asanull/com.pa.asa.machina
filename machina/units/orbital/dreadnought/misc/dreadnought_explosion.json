@@ -1,0 +1,16 @@
+{
+    "recon": {
+      "observable": {
+        "layer": "surface_and_air",
+        "sphere_radius": 50,
+        "ignore_radar": true,
+        "always_visible": true
+      }
+    },
+    
+    "spawn_response": {
+      "audio_cue": "/SE/Celestial/Planet_Explode_Ragnarock",
+      "effect_spec": "/pa/effects/specs/default_commander_explosion_air.pfx",
+      "effect_scale": 1
+    }
+  }

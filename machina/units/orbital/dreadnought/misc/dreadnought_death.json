@@ -1,0 +1,27 @@
+{
+
+    "ammo_type": "PBAOE",
+    "damage": 5000,
+    "splash_damage": 5000,
+    "splash_radius": 140,
+    "full_damage_splash_radius": 40,
+    "splash_damages_allies": true,
+
+    "damage_volume": {
+        "initial_radius": 0,
+        "radius_velocity": 200,
+        "radius_accel": -40,
+        "delay": 1.5,
+        "burnable_remove_radius": 70
+    },
+
+    "armor_damage_map": {
+      "AT_Orbital": 1,
+      "AT_Air": 0.5,
+      "AT_Commander": 0.25
+    },
+  
+    "sim_fire_effect": "/machina/units/orbital/dreadnought/misc/dreadnought_explosion.json",
+    "impact_decals": []
+
+  }

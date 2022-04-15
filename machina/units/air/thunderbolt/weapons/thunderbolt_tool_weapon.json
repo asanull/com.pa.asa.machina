@@ -1,0 +1,21 @@
+{
+    "base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json",
+    "ammo_id": "/machina/units/air/thunderbolt/ammo/thunderbolt_ammo.json",
+    "rate_of_fire": 64,
+    "ammo_source": "metal",
+    "ammo_capacity": 32,
+    "ammo_demand": 1,
+    "ammo_per_shot": 1,
+    "idle_aim_delay": 0,
+    "max_range": 150,
+    "yaw_rate": 360,
+    "pitch_rate": 360,
+    "yaw_range": 30,
+    "pitch_range": 40,
+    "auto_attack": true,
+    "firing_standard_deviation": 2.5,
+    "initial_velocity": 120.0,
+    "max_velocity": 120.0,
+    "target_layers": ["WL_LandHorizontal", "WL_WaterSurface"],
+    "target_priorities": ["AirDefense | Air", "Titan & ( Land | Naval )", "Economy | Fabber", "Artillery & Advanced & ( Land | Naval )", "Nuke | NukeDefense"]
+}

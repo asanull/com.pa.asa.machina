@@ -1,0 +1,23 @@
+{
+  "range_height": 400,
+    "base_spec": "/pa/tools/base_turret/base_turret.json",
+    "tool_type": "TOOL_Weapon",
+    "target_priorities": [
+      "Mobile - Air",
+      "Naval",
+      "Structure - Wall",
+      "Wall"
+    ],
+    "ammo_id": "/machina/units/orbital/dreadnought/ammo/dreadnought_laser.json",
+    "rate_of_fire": 2.5,
+    "max_range": 650,
+    "yaw_rate": 180,
+    "pitch_rate": 400,
+    "yaw_range": 400,
+    "pitch_range": 400,
+    "auto_attack": true,
+    "target_layers": [
+      "WL_Orbital"
+    ],
+    "idle_aim_delay": 0
+  }
